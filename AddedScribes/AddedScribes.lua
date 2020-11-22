@@ -27,8 +27,8 @@ local config = {
 			Bench = 10,
 			NilTable = {},
 			SetTable = {
-			PlayerAttributeRespawn = 34,
-			ScoreValue = 5,
+			PlayerAttributeAura = 27,
+			PlayerAttributeRespawn = 1,
 			ShortName = "NPC_ScribeCur",
 			SmallPortrait = "ScribeCur01_Small",
 			MaskHue = 80, MaskSaturationAddition = 0, MaskValueAddition = -60,
@@ -40,8 +40,8 @@ local config = {
 			Bench = 10,
 			NilTable = {},
 			SetTable = {
-			PlayerAttributeAura = 27,
-			PlayerAttributeRespawn = 1,
+			PlayerAttributeRespawn = 34,
+			ScoreValue = 5,
 			ShortName = "NPC_ScribeDemon",
 			SmallPortrait = "ScribeDemon01_Small",
 			MaskHue = 290, MaskSaturationAddition = -30, MaskValueAddition = -25,
