@@ -1,5 +1,6 @@
 ModUtil.RegisterMod( "AddedScribes" )
 --[[
+`
 Google Sheet for different character Values
 https://docs.google.com/spreadsheets/d/1XxANHz_vtz8QHXYa0GqOX6xrL1XXGSsWsXiZWzZkVyw/edit?usp=sharing
 ]]--
