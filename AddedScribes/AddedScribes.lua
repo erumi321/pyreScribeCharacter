@@ -1,6 +1,5 @@
 ModUtil.RegisterMod( "AddedScribes" )
 --[[
-`
 Google Sheet for different character Values
 https://docs.google.com/spreadsheets/d/1XxANHz_vtz8QHXYa0GqOX6xrL1XXGSsWsXiZWzZkVyw/edit?usp=sharing
 ]]--
@@ -16,7 +15,7 @@ local config = {
 			PlayerAttributeSpeed = 19,
 			PlayerAttributeRespawn = 1,
 			ScoreValue = 26,
-			FirstName = "NPC_ScribeNomad",
+			ShortName = "NPC_ScribeNomad",
 			SmallPortrait = "ScribeNomad01_Small",
 			UsePhantomShader = true,
 			MaskHue = 30, MaskSaturationAddition = -30, MaskValueAddition = -30,
@@ -30,7 +29,8 @@ local config = {
 			SetTable = {
 			PlayerAttributeRespawn = 34,
 			ScoreValue = 5,
-			SmallPortrait = "ScribeDemon01_Small",
+			ShortName = "NPC_ScribeCur",
+			SmallPortrait = "ScribeCur01_Small",
 			MaskHue = 80, MaskSaturationAddition = 0, MaskValueAddition = -60,
 			MaskHue2 = 190, MaskSaturationAddition2 = 10, MaskValueAddition2 = -50,
 			},
@@ -42,7 +42,8 @@ local config = {
 			SetTable = {
 			PlayerAttributeAura = 27,
 			PlayerAttributeRespawn = 1,
-			SmallPortrait = "ScribeCur01_Small",
+			ShortName = "NPC_ScribeDemon",
+			SmallPortrait = "ScribeDemon01_Small",
 			MaskHue = 290, MaskSaturationAddition = -30, MaskValueAddition = -25,
 			MaskHue2 = 40, MaskSaturationAddition2 = -40, MaskValueAddition2 = 40,
 			},
@@ -56,6 +57,7 @@ local config = {
 			PlayerAttributeRespawn = 1,
 			PlayerAttributeSpeed = 22,
 			ScoreValue = 28,
+			ShortName = "NPC_ScribeTraitor",
 			SmallPortrait = "ScribeTraitor01_Small"
 			},
 		},
@@ -66,6 +68,7 @@ local config = {
 			SetTable = {
 			PlayerAttributeSpeed = 28,
 			PlayerAttributeRespawn = 1,
+			ShortName = "NPC_ScribeImp",
 			SmallPortrait = "ScribeImp01_Small",
 			MaskHue = 20, MaskSaturationAddition = -0, MaskValueAddition = -5,
 			MaskHue2 = 50, MaskSaturationAddition2 = -80,  MaskValueAddition2 = -85,
@@ -79,6 +82,7 @@ local config = {
 			PlayerAttributeAura = 13,
 			ScoreValue = 23,
 			PlayerAttributeRespawn = 1,
+			ShortName = "NPC_ScribeWyrm",
 			SmallPortrait = "ScribeWyrm01_Small",
 			MaskHue = 170, MaskSaturationAddition = 0, MaskValueAddition = -20,
 			MaskHue2 = 0, MaskSaturationAddition2 = 10, MaskValueAddition2 = 30,
@@ -91,6 +95,7 @@ local config = {
 			SetTable = {
 			PlayerAttributeSpeed = 24,
 			PlayerAttributeRespawn = 1,
+			ShortName = "NPC_ScribeHarp",
 			SmallPortrait = "ScribeHarp01_Small",
 			MaskHue = 160, MaskSaturationAddition = -10, MaskValueAddition = -50,
 			MaskHue2 = 270, MaskSaturationAddition2 = -20, MaskValueAddition2 = 20,
@@ -103,6 +108,7 @@ local config = {
 			SetTable = {
 			PlayerAttributeSpeed = 18,
 			PlayerAttributeRespawn = 1,
+			ShortName = "NPC_ScribeSap",
 			SmallPortrait = "ScribeSap01_Small",
 			MaskHue = 345, MaskSaturationAddition = -30, MaskValueAddition = 30,
 			MaskHue2 = 40, MaskSaturationAddition2 = 20,  MaskValueAddition2 = 30,
@@ -115,6 +121,7 @@ local config = {
 			SetTable = {
 			ScoreValue = 34,
 			PlayerAttributeRespawn = 1,
+			ShortName = "NPC_ScribeCrone",
 			SmallPortrait = "ScribeCrone01_Small",
 			MaskHue = 75, MaskSaturationAddition = -30, MaskValueAddition = -25,
 			MaskHue2 = 128, MaskSaturationAddition2 = -40, MaskValueAddition2 = 60,
